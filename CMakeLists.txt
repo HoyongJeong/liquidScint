@@ -48,7 +48,7 @@ target_link_libraries(liquidScint ${Geant4_LIBRARIES})
 # it relies on these scripts being in the current working directory.
 #------------------------------------------------------------------------------#
 set(LIQUIDSCINT_SCRIPTS
-	README
+	README.md
 	init_vis.mac
 	vis.mac
 )
