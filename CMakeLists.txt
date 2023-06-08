@@ -75,4 +75,4 @@ install(TARGETS liquidScint DESTINATION bin)
 #------------------------------------------------------------------------------#
 #   Flag setting
 #------------------------------------------------------------------------------#
-set (CMAKE_EXE_LINKER_FLAGS "-Wl,--no-as-needed")
+#set (CMAKE_EXE_LINKER_FLAGS "-Wl,--no-as-needed")
