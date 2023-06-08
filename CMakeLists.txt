@@ -65,7 +65,7 @@ endforeach()
 #   For internal Geant4 use - but has no effect if you build this liquidScint
 # standalone
 #------------------------------------------------------------------------------#
-add_custom_target(LIQUIDSCINT DEPENDS liquidScint)
+#add_custom_target(LIQUIDSCINT DEPENDS liquidScint)
 
 #------------------------------------------------------------------------------#
 #   Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
