@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+//   LSActIni.cc
+//
+//   Definitions of LSActIni class's member functions.
+// All actions must be initialized here in order to use multi thread.
+//
+//     - Hoyong Jeong (hoyong5419@korea.ac.kr), Eunil Won (eunilwon@korea.ac.kr)
+////////////////////////////////////////////////////////////////////////////////
+
+#include "LSActIni.hh"
+#include "LSPriGenAct.hh"
+#include "LSRunAct.hh"
+#include "LSSteAct.hh"
+
+//////////////////////////////////////////////////
+//   Constructor
+//////////////////////////////////////////////////
+LSActIni::LSActIni(): G4VUserActionInitialization()
+{
+}
+
+//////////////////////////////////////////////////
+//   Destructor
+//////////////////////////////////////////////////
+LSActIni::~LSActIni()
+{
+}
+
+//////////////////////////////////////////////////
+//   Build For Master
+//////////////////////////////////////////////////
+void LSActIni::BuildForMaster() const
+{
+	// So, this part is for master. This program is possible to do multithread.
+	// A thread will care things as a master.
+	SetUserAction(new LSRunAct());
+}
+
+//////////////////////////////////////////////////
+//   Build                                      //
+//////////////////////////////////////////////////
+void LSActIni::Build() const
+{
+	// All user actions are here.
+	SetUserAction(new LSPriGenAct());
+	SetUserAction(new LSRunAct());
+	SetUserAction(new LSSteAct());
+}
