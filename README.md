@@ -22,6 +22,8 @@ Options:
   -h  Show help message
   -m  Run with macro
 
+# Drawing histogram
+Please use scripts/DrawHist.C or write by yourself.
 
 # Development Guid
 1. If you want to change material property? Go to the line 139 of src/LSDetCon.cc
