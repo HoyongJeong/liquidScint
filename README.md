@@ -1,4 +1,34 @@
-# liquidScint
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">liquidScint</h3>
+
+  <p align="center">
+    GEANT4 Liquid Scintillator Simulation
+    <br />
+  </p>
+</div>
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+  </ol>
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 This GEANT4 simulation is an educational code for undergraduate students who are new to GEANT4 to study the properties of liquid scintillators.
 The motivation is to investigate whether liquid scintillator can distinguish Cerenkov & scintillation photons.
