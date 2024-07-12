@@ -189,7 +189,7 @@ The unit of time is nanosecond and eV for that of energy.
 
 <!-- DRAWING HISTOGRAM -->
 ## Drawing histogram
-Please use scripts/DrawHist.C or write by yourself.
+Please use `scripts/DrawHist.C` or write by yourself.
 ```bash
 $ root scripts/DrawHist.C
 ```
@@ -206,10 +206,10 @@ An image file `hists.png` will be written if you execute the script:
 
 <!-- DEVELOPMENT GUIDE -->
 ## Development Guide
-1. If you want to change material property? Go to the line 139 of src/LSDetCon.cc
-2. If you want to change surface property? Go to the line 91 of src/LSDetCon.cc
-3. If you want to edit ntuple structure? Go to the line 31 of src/LSRunAct.cc
-4. If you want to revise data acquisition? Go to the line 80 of the src/LSSteAct.cc
+1. If you want to change material property? Go to the line 139 of `src/LSDetCon.cc`
+2. If you want to change surface property? Go to the line 91 of `src/LSDetCon.cc`
+3. If you want to edit ntuple structure? Go to the line 31 of `src/LSRunAct.cc`
+4. If you want to revise data acquisition? Go to the line 80 of the `src/LSSteAct.cc`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,5 +220,5 @@ An image file `hists.png` will be written if you execute the script:
   - README update
   - Add a sample macro file
 
-= [1.0.0] 8th Jun 2024 by Hoyong Jeong =
+= [1.0.0] 8th Jun 2023 by Hoyong Jeong =
   - First version of liquidScint
