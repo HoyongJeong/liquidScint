@@ -177,7 +177,7 @@ root [3] liquidScint -> Scan();
 *       24 *       304 *         0 * 10.233816 * 2.1772793 *
 ...
 ```
-creProcID refers to the ID of creation process. 0 means this photon has been created by Cerenkov radation, whereas 1 means scintillation.
+`creProcID` refers to the ID of creation process. 0 means this photon has been created by Cerenkov radiation, whereas 1 means scintillation.
 The unit of time is nanosecond and eV for that of energy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
