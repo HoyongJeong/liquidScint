@@ -47,6 +47,8 @@ This GEANT4 simulation is an educational code for undergraduate students who are
 The motivation is to investigate whether liquid scintillator can distinguish Cerenkov & scintillation photons.
 By changing the properties of the liquid scintillator, you can see which cocktail distinguishes the timing of Cerenkov and scintillation.
 
+This project is compatible with GEANT4 version 11 or higher.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
