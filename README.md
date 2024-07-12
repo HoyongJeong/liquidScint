@@ -3,10 +3,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <img src="https://geant4.web.cern.ch/assets/logo/g4logo-web.png" alt="Logo" height="80">
+  
   <h1 align="center">liquidScint</h1>
 
   <p align="center">
-    GEANT4 Liquid Scintillator Simulation
+    A Simple GEANT4 Liquid Scintillator Simulation
     <br />
   </p>
 </div>
@@ -20,9 +22,23 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#installation">Installation</a>
+      <a href="#how-to-build">How to build</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#usage">Usage</a>
+    </li>
+    <li>
+      <a href="#simulation-output">Simulation Output</a>
+    </li>
+    <li>
+      <a href="#drawing-histogram">Drawing histogram</a>
+    </li>
+    <li>
+      <a href="#development-guide">Development Guide</a>
+    </li>
+    <li>
+      <a href="#repository-history">Repository History</a>
+    </li>
   </ol>
 </details>
 
@@ -35,6 +51,7 @@ The motivation is to investigate whether liquid scintillator can distinguish Cer
 By changing the properties of the liquid scintillator, you can see which cocktail distinguishes the timing of Cerenkov and scintillation.
 
 
+<!-- HOW TO BUILD -->
 ## How to build
 ```bash
 $ mkdir liquidScint
@@ -47,7 +64,8 @@ $ make -j
 ```
 
 
-## How to run
+<!-- USAGE -->
+## Usage
 
 ### Print help message
 `./liquigScint -h` shows help message:
@@ -87,7 +105,8 @@ A batch run is recommended to get sizable statistics. The code includes an examp
 ./liquidScint -b -m run_10k.mac
 ```
 
-## After Simulation
+<!-- SIMULATION OUTPUT -->
+## Simulation Output
 ROOT files with name of `liquidScint_YYYY-MM-DD_HH_mm_SS_tN.root` will be created. N can vary depending on multithreading configuration.
 The tree structure is simple. The following is a printed result of a summary of the tree contents:
 ```bash
@@ -159,6 +178,7 @@ creProcID refers to the ID of creation process. 0 means this photon has been cre
 The unit of time is nanosecond and eV for that of energy.
 
 
+<!-- DRAWING HISTOGRAM -->
 ## Drawing histogram
 Please use scripts/DrawHist.C or write by yourself.
 ```bash
@@ -173,6 +193,7 @@ An image file `hists.png` will be written if you execute the script:
 - Fourth pad: Cerenkov histogam overlapped on all histogram
 
 
+<!-- DEVELOPMENT GUIDE -->
 ## Development Guide
 1. If you want to change material property? Go to the line 139 of src/LSDetCon.cc
 2. If you want to change surface property? Go to the line 91 of src/LSDetCon.cc
@@ -180,7 +201,8 @@ An image file `hists.png` will be written if you execute the script:
 4. If you want to revise data acquisition? Go to the line 80 of the src/LSSteAct.cc
 
 
-## History
+<!-- REPOSITORY HISTORY -->
+## Repository History
 = [1.0.1] 13th Jul 2024 by Hoyong Jeong =
   - README update
   - Add a sample macro file
