@@ -90,7 +90,7 @@ Options:
 ### Graphical Mode
 Executing `./liquidScint -g` will open a GUI window like,
 ![GUI1](./assets/g1.png)
-There is a big cube containing liquid scintillator. A small cylindrical PMT is attached to one side. The scintillator is basically wrapped with reflective surface. Once a optical photon touches the PMT, that photon is killed imediately and its time and energy is recorded into ntuple.
+There is a big cube containing liquid scintillator. A small cylindrical PMT is attached to one side. The scintillator is basically wrapped with reflective surface. Once a optical photon touches the PMT, that photon is killed imediately and its time and kinetic energy are recorded into ntuple.
 
 Typing a command such as `/run/beamOn 1` generates a primary particle:
 ![GUI2](./assets/g2.png)
