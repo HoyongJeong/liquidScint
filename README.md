@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">liquidScint</h3>
+  <h1 align="center">liquidScint</h1>
 
   <p align="center">
     GEANT4 Liquid Scintillator Simulation
