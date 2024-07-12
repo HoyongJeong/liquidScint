@@ -96,7 +96,7 @@ Typing a command such as `/run/beamOn 1` generates a primary particle:
 ![GUI2](./assets/g2.png)
 The species of primary particle is electron. Of course, you can change the kind.
 
-With wire frame view, one can see photons inside the liquid scintillator:
+With wire frame view, one can see photon tracks inside the liquid scintillator:
 ![GUI3](./assets/g3.png)
 
 ### CLI Mode
