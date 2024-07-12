@@ -1,14 +1,19 @@
-liquidScint
+# liquidScint
 =============
 
-# How to build
-    $ mkdir build
-    $ cd build
-    $ cmake [Where the source locate]
-    $ make
+## How to build
+```bash
+$ mkdir liquidScint
+$ cd liquidScint
+$ git clone git@github.com:HoyongJeong/liquidScint.git source
+$ mkdir build
+$ cd build
+$ cmake ../source
+$ make -j
+```
 
 
-# How to run
+## How to run
 usage: liquidScint [-b] [-g] [-m macrofile]
 
 Examples:
@@ -22,10 +27,10 @@ Options:
   -h  Show help message
   -m  Run with macro
 
-# Drawing histogram
+## Drawing histogram
 Please use scripts/DrawHist.C or write by yourself.
 
-# Development Guid
+## Development Guid
 1. If you want to change material property? Go to the line 139 of src/LSDetCon.cc
 2. If you want to change surface property? Go to the line 91 of src/LSDetCon.cc
 3. If you want to edit ntuple structure? Go to the line 31 of src/LSRunAct.cc
@@ -33,7 +38,10 @@ Please use scripts/DrawHist.C or write by yourself.
 
 
 
-#   History
+## History
 
-= [1.0.0] 8. Jun. 2023. by Hoyong Jeong =
+= [1.0.1] 12th Jul 2024 by Hoyong Jeong =
+  - README update
+
+= [1.0.0] 8th Jun 2024 by Hoyong Jeong =
   - First version of liquidScint
