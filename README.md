@@ -88,7 +88,7 @@ Options:
 ```
 
 ### Graphical Mode
-Executing `./liquidScint -g` will open w GUI window like,
+Executing `./liquidScint -g` will open a GUI window like,
 ![GUI1](./assets/g1.png)
 
 Typing a command such as `/run/beamOn 1` generates a primary particle:
