@@ -14,8 +14,11 @@ $ make -j
 
 
 ## How to run
+
+### Print help message
 `./liquigScint -h` shows help message:
 ```bash
+$ ./liquigScint -h
 usage: liquidScint [-b] [-g] [-m macrofile]
 
 Examples:
@@ -30,8 +33,18 @@ Options:
   -m  Run with macro
 ```
 
+### Graphical Run
 Executing `./liquidScint -g` will open w GUI window like,
 ![GUI1](./assets/g1.png)
+
+Typing a command such as `/run/beamOn 1` generates a primary particle:
+![GUI2](./assets/g2.png)
+
+With wire frame view, one can see photons inside the liquid scintillator:
+![GUI3](./assets/g3.png)
+
+
+### Batch Mode
 
 
 
