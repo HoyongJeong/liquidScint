@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
+<!-- PROJECT HEAD -->
 <div align="center">
   <h1 align="center">liquidScint</h1>
 
