@@ -51,6 +51,8 @@ set(LIQUIDSCINT_SCRIPTS
 	README.md
 	init_vis.mac
 	vis.mac
+	run_10k.mac
+	scripts/DrawHist.C
 )
 
 foreach(_script ${LIQUIDSCINT_SCRIPTS})
