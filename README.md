@@ -1,5 +1,9 @@
 # liquidScint
 
+This GEANT4 simulation is an educational code for undergraduate students who are new to GEANT4 to study the properties of liquid scintillators.
+The motivation is to investigate whether liquid scintillator can distinguish Cerenkov & scintillation photons.
+By changing the properties of the liquid scintillator, you can see which cocktail distinguishes the timing of Cerenkov and scintillation.
+
 
 ## How to build
 ```bash
