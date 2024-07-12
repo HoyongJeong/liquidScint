@@ -98,10 +98,10 @@ $ root scripts/DrawHist.C
 The script draws histograms of time distribution. The time is when photons are detected by PMT. t = 0 is when the primary particle is shot.
 An image file will be written if you execute the `DrawHist.C` script:
 ![hists](./assets/hists.png)
-First pad: MC truth time spectrum of Cerenkov photons
-Second pad: MC truth time spectrum of scintillation photons
-Third pad: MC truth time spectrum of all photons
-Third pad: Cerenkov histogam on all histogram
+- First pad: MC truth time spectrum of Cerenkov photons
+- Second pad: MC truth time spectrum of scintillation photons
+- Third pad: MC truth time spectrum of all photons
+- Fourth pad: Cerenkov histogam on all histogram
 
 
 ## Development Guid
