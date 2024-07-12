@@ -3,8 +3,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="https://geant4.web.cern.ch/assets/logo/g4logo-web.png" alt="Logo" height="80">
-  
   <h1 align="center">liquidScint</h1>
 
   <p align="center">
