@@ -104,7 +104,8 @@ With wire frame view, one can see photon tracks inside the liquid scintillator:
 
 ### Batch Mode
 Running GEANT4 simulation in GUI mode, in general, requires graphical resource, thus really slow and takes a lot of time, even the process may be broken.
-A batch run is recommended to get sizable statistics. The code includes an example macro file `run_10k.mac`. This macro runs 10,000 events.
+A batch run is recommended to get sizable statistics. The batch mode skips to turn on any interactive session, but requires macro to execute command.
+The code includes an example macro file `run_10k.mac`. This macro runs 10,000 events.
 ```bash
 ./liquidScint -b -m run_10k.mac
 ```
