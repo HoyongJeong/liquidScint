@@ -9,7 +9,7 @@
   <h1 align="center">liquidScint</h1>
 
   <p align="center">
-    A Simple GEANT4 Liquid Scintillator Simulation
+    A Simple <span style="font-variant:small-caps;">GEANT4</span> Liquid Scintillator Simulation
     <br />
   </p>
 </div>
