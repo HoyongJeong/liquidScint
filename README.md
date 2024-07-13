@@ -1,7 +1,11 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT HEAD -->
+<!-- PROJECT LOGO -->
 <div align="center">
+  <a href="https://github.com/HoyongJeong/liquidScint">
+    <img src="assets/logo.png" alt="Logo" height="80">
+  </a>
+
   <h1 align="center">liquidScint</h1>
 
   <p align="center">
